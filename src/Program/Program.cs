@@ -31,12 +31,12 @@ namespace Program
             VisitorAge TotalAge1 = new VisitorAge();
             TotalAge1.VisitNode(n1);
             Console.WriteLine($"la suma de las edades de todos los integrantes de la familia es: {TotalAge1.Content()}");
-            VisitorName vLargestName = new VisitorName();
-            vLargestName.VisitNode(n1);
-            Console.WriteLine(vLargestName.Content());
-            VisitorSon vFB = new VisitorSon();
-            vFB.VisitNode(n1);
-            Console.WriteLine(vFB.Content());
+            VisitorName LargestName1 = new VisitorName();
+            LargestName1.VisitNode(n1);
+            Console.WriteLine(LargestName1.Content());
+            VisitorSon Son1 = new VisitorSon();
+            Son1.VisitNode(n1);
+            Console.WriteLine(Son1.Content());
         }
     }
 }
